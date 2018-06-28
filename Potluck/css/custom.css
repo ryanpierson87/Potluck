@@ -1,0 +1,36 @@
+.carousel-inner{
+  width: 400px;
+  height:400px;
+}
+
+body{
+  background-color: #5b3b1a;
+}
+
+.emphasis{
+  font-style: italic;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+#special{
+  text-decoration: underline;
+}
+
+form{
+  background-color: #2d5d3c;
+}
+
+.jumbotron{
+background: slateblue url('../images/pot.jpg') no-repeat;
+background-size: cover;
+color: white;
+
+}
+
+.lead{
+  font-size: 27px;
+  text-shadow: -0.1px 0 black, 0 0.1px grey, 0.1px 0 lightgrey, 0 -0.1px black;
+}
