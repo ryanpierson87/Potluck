@@ -12,14 +12,16 @@
     <link rel="stylesheet" href="css/custom.css">
   </head>
   <body>
-    <h1 class="display-2 text-white">What Are You Bringing To The Potluck?</h1>
-    <h2  class="text-white">The Site Where <strong>You</strong> Let Us Know What You Are Bringing to the Potluck!</h2>
+    <div class="segment m-0 p-2">
+      <h1 class="display-2 text-white bold">What Are You Bringing To The Potluck?</h1>
+      <h2  class="text-white display-3">The Site Where <strong>You</strong> Let Us Know What You Are Bringing to the Potluck!</h2>
+    </div>
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4">The Magic of Potlucks</h1>
-        <p class="lead">Potlucks are magic. <span id="better">They are places where we can share our <span class="emphasis">feelings</span> in <strong>addition</strong> to our food</span>.
-          We like potlucks. We think think you like potlucks too. Please join us at our <span id="special">special</span> potluck.</p>
-  <!--carousel -->
+        <h1 class="display-4">The Magic of Potlucks</h1><!-- Better: Can't we come up with a better platitude?-->
+        <p class="lead">Potlucks are magic. <span id="better">They are places where we can share <span class="emphasis">our feelings</span> in <strong>addition</strong> to our food</span>.
+          We like potlucks. We think you like potlucks too. Please join us at our <span id="special">special</span> potluck.</p>
+<!--carousel -->
       <div id="carouselExampleControls" class="carousel slide carousel-fade d-none d-md-block" data-ride="carousel">
         <div class="carousel-inner mx-auto">
         <div class="carousel-item active">
@@ -64,42 +66,70 @@
       </div>
     </div>
   <!--/jumbotron -->
+<!--details -->
+  <div class="container">
+    <div class="row">
+    <div class="col-md-6 col-lg-4">
+    <h2 class="text-white">About Potlucks</h2>
+      <p class="text-white">
+        As stated before potlucks are magic. There's an inexplicable <strong>french expression</strong> about a gathering of
+        people eating the food of their neighbors. Sharing is caring. The right side of history. A road to a better tomorrow. Walking on sunshine.
+        And a list of other euphemisms that you could easily imagine being printed on a picture of a sunset or cute kitten. <span class="emphasis">(Can I haz cheezburber?</span><strong> LOL!!!!)</strong>
+        We digress...<br /><br /> We love food- we love people. So naturally we love people<span id="as">'s</span> food. <br /><br />
+        Bottom line: <strong>We. Love. Potlucks</strong>.
+      </p>
+    </div>
+      <div class="col-md-6 col-lg-4 order-lg-1">
+      <h2 class="text-white">About Us</h2>
+        <p class="text-white">
+          As you may have gathered from our description of potlucks, we are a small community that loves potlucks. Every other month we get together in a nice, secluded area in <strong>Nebraska</strong>- and we have ourselves a little <i>feast</i>.
+          (We'll disclose the specific location after you RSVP with your selected food product(see form)). <span id="love">We'd love to have you with us</span><!--We'd love to have you inside us, but not in a sexual way- in a we're going to eat you kinda way -->
+        </p>
+      </div>
+
 
 <!--form -->
-<div class="container">
-  <form class="col-md-6 mx-auto text-white">
+  <form class="col-md-10 col-lg-4 mx-auto mb-auto text-white py-2">
     <div class="form-group">
       <label for="name">Full Name</label>
       <input type="name" class="form-control" id="name" aria-describedby="fullName">
     </div>
-    <div class="form-group">
-      <label for="email">E-Mail</label>
-      <input type="email" class="form-control" id="email" placeholder="email@domain.com">
-    </div>
-    <!--Select Menu -->
-    <select class="custom-select">
-      <option selected>I am bringing:</option>
-      <option value="1">Pearl Onions</option>
-      <option value="2">Yellow Onions</option>
-      <option value="3">Torpedo Onions</option>
-      <option value="4">Creole Onions</option>
-      <option value="5">Red Onions</option>
-      <option value="6">Maui Onions</option>
-      <option value="7">Other</option>
-    </select>
-    <!--/Select Menu -->
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
+    <div class="">
+        <div class="form-group">
+          <label for="email">E-Mail</label>
+          <input type="email" class="form-control" id="email" placeholder="email@domain.com">
+        </div>
+        <!--Select Menu -->
+        <select class="custom-select">
+          <option selected>I am bringing:</option>
+          <option value="1">Pearl Onions</option>
+          <option value="2">Yellow Onions</option>
+          <option value="3">Torpedo Onions</option>
+          <option value="4">Creole Onions</option>
+          <option value="5">Red Onions</option>
+          <option value="6">Maui Onions</option>
+          <option value="7">Other</option>
+        </select>
+        <!--/Select Menu -->
+        <button type="submit" class="btn btn-primary my-4 mr-0">Submit</button>
+      </form>
+
+    <!--/form -->
+<!--/details -->
+  </div> <!--end row -->
+  </div>
 </div>
-<!--/form -->
-  <!--Select Menu -->
-                                  <!-- <select class="custom-select">
-                                    <option selected>Open this select menu</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                  </select> -->
-  <!--/Select Menu -->
+<!-- footer -->
+<footer class="text-white p-2">
+  <div class="container">
+      <div class="row">
+    <p class="mx-auto p-2">
+      &copy;The Totally Legit and Not Suspicious Potluck Community 2018
+      </p>
+  </div>
+</div>
+</footer>
+<!-- /footer -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
