@@ -37,6 +37,12 @@ footer{
   margin: 0;
 }
 
+.error{
+  color: red;
+  font-style: italic;
+  background-color: lightgrey;
+}
+
 .jumbotron{
 background: #2d545d url('../images/pot.jpg') no-repeat;
 background-size: cover;
